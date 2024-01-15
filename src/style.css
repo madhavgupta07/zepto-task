@@ -1,0 +1,58 @@
+/* Style for the container div */
+div {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 20px;
+}
+
+/* Style for the selected emails container */
+div > div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+/* Style for each selected email span */
+div > div > span {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  background-color: #e0e0e0;
+  border-radius: 3px;
+}
+
+/* Style for the remove button within the selected email span */
+div > div > span > button {
+  margin-left: 5px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Style for the input field */
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Style for the suggestions list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style for each suggestion item */
+li {
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for suggestion items */
+li:hover {
+  background-color: #f0f0f0;
+}
